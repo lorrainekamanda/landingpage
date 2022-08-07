@@ -355,4 +355,30 @@
 	margin-bottom: 0;
   }
   
+
+/*--------------------------------------------------------------
+# Mission Section
+--------------------------------------------------------------*/
+.mission .tab-content .tab-header p {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #676775;
+	margin-bottom: 0;
+  }
+  
+  .mission .tab-content .tab-header h3 {
+	font-size: 36px;
+	font-weight: 600;
+	color: var(--color-primary);
+  }
+  
+  .mission .tab-content .mission-item {
+	-moz-text-align-last: center;
+	text-align-last: center;
+  }
+  
+  .mission .tab-content .mission-item .mission-img {
+	padding: 0 60px;
+	margin-bottom: 15px;
+  }
   
