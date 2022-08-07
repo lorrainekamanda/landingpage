@@ -382,3 +382,19 @@
 	margin-bottom: 15px;
   }
   
+
+/*--------------------------------------------------------------
+# Life expectancy chart section
+--------------------------------------------------------------*/
+
+
+.charts .container-fluid {
+	padding: 0;
+  }
+  
+.charts .event-item {
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+	padding: 30px;
+  }
