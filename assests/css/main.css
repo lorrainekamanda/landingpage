@@ -294,3 +294,65 @@
   section {
 	scroll-margin-top: 90px;
   }
+
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about .about-img {
+	min-height: 500px;
+  }
+  
+  .about h3 {
+	font-weight: 700;
+	font-size: 36px;
+	margin-bottom: 30px;
+	font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .about .call-us {
+	left: 10%;
+	right: 10%;
+	bottom: 10%;
+	background-color: #fff;
+	box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .about .call-us h4 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .about .call-us p {
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--color-primary);
+  }
+  
+  .about .content ul {
+	list-style: none;
+	padding: 0;
+  }
+  
+  .about .content ul li {
+	padding: 0 0 8px 26px;
+	position: relative;
+  }
+  
+  .about .content ul i {
+	position: absolute;
+	font-size: 20px;
+	left: 0;
+	top: -3px;
+	color: var(--color-primary);
+  }
+  
+  .about .content p:last-child {
+	margin-bottom: 0;
+  }
+  
+  
