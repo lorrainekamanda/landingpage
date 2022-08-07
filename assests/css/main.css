@@ -398,3 +398,57 @@
 	min-height: 600px;
 	padding: 30px;
   }
+
+/*--------------------------------------------------------------
+# Books Section
+--------------------------------------------------------------*/
+.books .book-body {
+  
+	text-align: center;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0px 3px 6px #00000029;
+	transition: 0.3s;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+  }
+  
+  .books .book-body .book-img {
+	
+	overflow: hidden;
+  }
+  
+  .books .book-body .book-img:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	background-size: contain;
+	z-index: 1;
+  }
+  
+  .books .book-body .info {
+	padding: 10px 15px 20px 15px;
+  }
+  
+  .books .book-body .info h4 {
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: var(--color-secondary);
+  }
+  
+  .books .book-body .info span {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(33, 37, 41, 0.4);
+  }
+  
+  .books .book-body .info p {
+	font-style: italic;
+	font-size: 14px;
+	padding-top: 15px;
+	line-height: 26px;
+	color: rgba(33, 37, 41, 0.7);
+  }
+  
+  
