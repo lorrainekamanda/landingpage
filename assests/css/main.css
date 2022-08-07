@@ -451,4 +451,54 @@
 	color: rgba(33, 37, 41, 0.7);
   }
   
+
+/*--------------------------------------------------------------
+# Longevity Section
+--------------------------------------------------------------*/
+.longevity {
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	min-height: 60vh;
+	padding: 160px 0 60px 0;
+  }
   
+  .longevity h2 {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: black;
+	
+	font-family: 'Titillium Web', sans-serif;
+  }
+  
+  .longevity h2 span {
+	color: var(--color-primary);
+  }
+  
+  .longevity p {
+	color:#000000;
+	font-weight: 400;
+	margin-bottom: 30px;
+  }
+  
+  .app-download {
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 36px;
+	border-radius: 32px;
+  
+	color: #fff;
+	background: #44A2F5 0% 0% no-repeat padding-box;
+  
+}
+  
+@media (max-width: 640px) {
+	.lonevity h2 {
+	  font-size: 36px;
+	}
+  
+  
+  } 
